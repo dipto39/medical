@@ -1,0 +1,240 @@
+html {
+    font-family: monospace;
+}
+
+.main {
+    padding: 17px;
+}
+
+a {
+    text-decoration: none !important;
+}
+.header a{
+    color: rgb(26, 26, 26);
+}
+
+.landrbutton {
+    right: 20px;
+    top: 9px;
+}
+
+.landrbutton img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.landrbutton h6 {
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.left_side {
+    width: 290px;
+    padding: 16px;
+    font-size: 17px;
+}
+
+
+
+.left_side li {
+    margin-bottom: 16px !important;
+
+}
+
+.left_side li {
+    padding: 7px 0;
+    text-align: center;
+    border: 1px solid rgba(158, 153, 117, 0.363);
+    font-weight: 500;
+}
+
+.left_side a {
+    color: black;
+}
+
+.active {
+    background-color: #EDBB70;
+
+}
+
+.left_side li:hover {
+    background-color: #EDBB70;
+
+}
+
+
+.summery .col-lg-4 h1 {
+    font-weight: 900;
+    color: rgb(99, 99, 99);
+}
+
+
+#nrform input,
+#nrform select {
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+
+
+#nrform label {
+    font-size: 15px !important;
+}
+
+small {
+    display: none !important;
+}
+
+/*profile section */
+
+.profile {
+    padding: 0 100px !important;
+}
+
+.geoloctaion {
+    right: -20px;
+    top: 0;
+}
+
+ /* all table style */
+ .allrecord table {
+    border: 3px solid black;
+}
+
+.allrecord table th {
+    background-color: rgb(219, 219, 219);
+}
+
+.allrecord tr,
+.allrecord th,
+.allrecord td {
+    padding: 1px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.allrecord td {
+    font-size: 15px;
+    background-color: #f7f4f0;
+    padding: 6px;
+}
+
+.allrecord th {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.allrecord img {
+    width: 25px;
+}
+
+
+
+.tableuser td {
+    border: 1px solid rgb(138, 138, 138);
+    padding: 5px;
+}
+
+.printbtn {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.printdata {
+    /* min-width: 600px; */
+    position: relative;
+}
+
+.printdata .dprint {
+    font-size: 17px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.printbtn {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.adddegbtn {
+    background-color: #EDBB70;
+    text-align: right;
+}
+
+.wreportfilter {
+    font-size: 16px;
+}
+
+.makeReport textarea {
+    font-size: 14px;
+}
+.dangericon{
+    left: 20px;
+    top: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header h3 {
+        text-align: start !important;
+    }
+
+    /*profile section */
+    .bydoctor {
+        margin: 10px 0;
+    }
+
+    .profile {
+        padding: 0 10px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header h3 {
+        text-align: start !important;
+    }
+
+    /*profile section */
+}
+
+@media only screen and (max-width: 1000px) {
+    /*profile section */
+
+    .profile {
+        padding: 0 10px !important;
+    }
+
+    /*profile section */
+    .header h3 {
+        text-align: start !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .left_side {
+        width: 100%;
+        padding: 16px;
+        font-size: 17px;
+    }
+    .header h3 {
+        font-size: 16px;
+    }
+    .landrbutton {
+        right: 20px;
+        top: 9px;
+    }
+    
+    .landrbutton img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    
+    .landrbutton h6 {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .user_name{
+        display: none;
+    }
+}
