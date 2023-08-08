@@ -76,6 +76,7 @@ class loginController extends Controller
     public function register_d(Request $req)
     {
         $req->validate([
+            'regType' => 'required',
             'name' => 'required',
             'email' => 'required|email',
             'password' => 'min:6',
@@ -137,6 +138,7 @@ class loginController extends Controller
     public function register_h(Request $req)
     {
         $req->validate([
+            'regType' => 'required',
             'name' => 'required',
             'email' => 'required|email',
             'password' => 'min:6',
